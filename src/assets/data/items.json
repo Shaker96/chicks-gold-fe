@@ -1,0 +1,167 @@
+[
+  {
+    "index": 0,
+    "isOnSale": true,
+    "isInStock": true,
+    "title": "quis",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "dolor est enim ex pariatur fugiat duis commodo",
+    "itemIcon": "item1.png",
+    "gameIcon": "fifa.png"
+  },
+  {
+    "index": 1,
+    "isOnSale": true,
+    "isInStock": false,
+    "title": "excepteur",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "laborum pariatur esse tempor voluptate nostrud adipisicing adipisicing",
+    "itemIcon": "item1.png",
+    "gameIcon": "fifa.png"
+  },
+  {
+    "index": 2,
+    "isOnSale": true,
+    "isInStock": false,
+    "title": "mollit",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "eiusmod enim aliqua excepteur officia sit non excepteur",
+    "itemIcon": "item1.png",
+    "gameIcon": "fifa.png"
+  },
+  {
+    "index": 3,
+    "isOnSale": false,
+    "isInStock": false,
+    "title": "ea",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "consectetur fugiat excepteur id officia voluptate voluptate sit",
+    "itemIcon": "item1.png",
+    "gameIcon": "fifa.png"
+  },
+  {
+    "index": 4,
+    "isOnSale": true,
+    "isInStock": false,
+    "title": "deserunt",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "sint irure ea consectetur esse est do velit",
+    "itemIcon": "item1.png",
+    "gameIcon": "fifa.png"
+  },
+  {
+    "index": 5,
+    "isOnSale": true,
+    "isInStock": false,
+    "title": "tempor",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "et nostrud duis sunt officia exercitation amet irure",
+    "itemIcon": "item2.png",
+    "gameIcon": "fall-guys.png"
+  },
+  {
+    "index": 6,
+    "isOnSale": true,
+    "isInStock": true,
+    "title": "cupidatat",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "elit ad id mollit pariatur amet deserunt eu",
+    "itemIcon": "item2.png",
+    "gameIcon": "fall-guys.png"
+  },
+  {
+    "index": 7,
+    "isOnSale": false,
+    "isInStock": false,
+    "title": "eiusmod",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "ut nulla culpa fugiat eu quis deserunt veniam",
+    "itemIcon": "item2.png",
+    "gameIcon": "fall-guys.png"
+  },
+  {
+    "index": 8,
+    "isOnSale": true,
+    "isInStock": true,
+    "title": "pariatur",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "dolor amet commodo ea est ut tempor ullamco",
+    "itemIcon": "item3.png",
+    "gameIcon": "rdr.png"
+  },
+  {
+    "index": 9,
+    "isOnSale": false,
+    "isInStock": true,
+    "title": "enim",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "eu voluptate irure adipisicing sunt officia culpa tempor",
+    "itemIcon": "item3.png",
+    "gameIcon": "rdr.png"
+  },
+  {
+    "index": 10,
+    "isOnSale": false,
+    "isInStock": true,
+    "title": "anim",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "tempor veniam elit voluptate veniam qui in Lorem",
+    "itemIcon": "item3.png",
+    "gameIcon": "rdr.png"
+  },
+  {
+    "index": 11,
+    "isOnSale": false,
+    "isInStock": false,
+    "title": "aliqua",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "cillum ex et officia anim dolor eu id",
+    "itemIcon": "item4.png",
+    "gameIcon": "rdr.png"
+  },
+  {
+    "index": 12,
+    "isOnSale": true,
+    "isInStock": true,
+    "title": "do",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "adipisicing voluptate nisi velit ut laborum laborum ipsum",
+    "itemIcon": "item4.png",
+    "gameIcon": "rocket-league.png"
+  },
+  {
+    "index": 13,
+    "isOnSale": false,
+    "isInStock": true,
+    "title": "sit",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "adipisicing incididunt irure sunt commodo do adipisicing et",
+    "itemIcon": "item4.png",
+    "gameIcon": "rocket-league.png"
+  },
+  {
+    "index": 14,
+    "isOnSale": false,
+    "isInStock": true,
+    "title": "nulla",
+    "price": "$450.00",
+    "fullPrice": "$522.50",
+    "description": "deserunt duis adipisicing laboris excepteur occaecat sint est",
+    "itemIcon": "item4.png",
+    "gameIcon": "rocket-league.png"
+  }
+]

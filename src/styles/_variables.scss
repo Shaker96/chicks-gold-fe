@@ -1,5 +1,6 @@
 $background-dark: #303141;
 $background: #34384b;
+$background-light: #37384b;
 
 $bg-input: #3d4862;
 $bg-input-hover: rgba(76, 96, 133, 0.4);
@@ -18,3 +19,21 @@ $bg-button-secondary-hover: #555867;
 $icon-green: #39e29d;
 
 $border-dark: 1px solid rgba(76, 96, 133, 0.5);
+
+$footer-dark: #2b2c3b;
+$footer-separator: #4c6085;
+
+$text-gray: rgba(255, 255, 255, 0.75);
+
+// breakpoints
+$sm-min: 480px;
+$md-min: 768px;
+$lg-min: 992px;
+$xl-min: 1280px;
+$xxl-min: 1400px;
+
+$sm-max: 479px;
+$md-max: 767px;
+$lg-max: 991px;
+$xl-max: 1279px;
+$xxl-max: 1399px;

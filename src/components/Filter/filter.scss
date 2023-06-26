@@ -15,6 +15,9 @@
     padding: 0 15px;
     flex: 1 0 auto;
     color: white;
+    &:last-child {
+      margin: 0;
+    }
     &--group {
       flex: 0 0 auto;
       margin: 0;
@@ -66,15 +69,18 @@
         padding-left: 15px;
       }
     }
-    &--price {
-
-    }
-    &--type {
-
+    &--sort {
+      flex: 0 1 176px;
+      margin: 0;
     }
     .select-arrow {
       width: 16px;
       margin-left: auto;
     }
+  }
+  &__subtitle {
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
   }
 }
