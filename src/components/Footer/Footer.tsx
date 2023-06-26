@@ -17,10 +17,10 @@ function Footer() {
       <div className='footer__section'>
         <div className="footer__container footer__social">
           <div className='footer-social__item-wrapper'>
-            <span className='footer-social__item'><img src={require('../../assets/icons/facebook.svg').default} alt="facebook" /></span>
-            <span className='footer-social__item'><img src={require('../../assets/icons/instagram.svg').default} alt="instagram" /></span>
-            <span className='footer-social__item'><img src={require('../../assets/icons/twitter.svg').default} alt="twitter" /></span>
-            <span className='footer-social__item'><img src={require('../../assets/icons/discord.svg').default} alt="discord" /></span>
+            <a href="https://facebook.com" target="_blank"><span className='footer-social__item'><img src={require('../../assets/icons/facebook.svg').default} alt="facebook" /></span></a>
+            <a href="https://instagram.com" target="_blank"><span className='footer-social__item'><img src={require('../../assets/icons/instagram.svg').default} alt="instagram" /></span></a>
+            <a href="https://twitter.com" target="_blank"><span className='footer-social__item'><img src={require('../../assets/icons/twitter.svg').default} alt="twitter" /></span></a>
+            <a href="https://discord.com" target="_blank"><span className='footer-social__item'><img src={require('../../assets/icons/discord.svg').default} alt="discord" /></span></a>
           </div>
         </div>
         <div className="footer__container footer__body">

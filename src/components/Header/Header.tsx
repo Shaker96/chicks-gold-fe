@@ -13,6 +13,7 @@ function Header() {
     cart: 0,
     isLogged: false
   });
+  const [burger, setBurger] = useState(false);
 
   useEffect(() => {
     setActions({
@@ -33,10 +34,13 @@ function Header() {
 
   return (
     <header className="header">
+      <div className='header__menu' onClick={() => setBurger(!burger)}>
+        <img src={require('../../assets/icons/menu.png')} alt="" />
+      </div>
       <div className="header__logo">
         <a href="#"><img src={logo} alt="chicks gold" /></a>
       </div>
-      <nav className='header__nav'>
+      <nav className={`header__nav ${burger ? 'visible' : ''}`}>
         <ul>
           {navElements.map((el, i) => (
             <li key={i}>

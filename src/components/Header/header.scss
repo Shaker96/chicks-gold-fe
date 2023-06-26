@@ -17,15 +17,46 @@
     flex: 0 0 auto;
     margin-right: 0.5rem;
     padding: 0 40px 0 18px;
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    @media screen and (min-width: $xxl-min) {
+      border-right: 1px solid rgba(255, 255, 255, 0.3);
+    }
     img {
       padding-bottom: 10px;
+    }
+  }
+  &__menu {
+    margin: 0 10px;
+    display: none;
+    height: 24px;
+    width: 24px;
+    @media screen and (max-width: $xxl-max) {
+      display: block;
     }
   }
   &__nav {
     flex: 1 1 auto;
     display: flex;
     height: 100%;
+    @media screen and (max-width: $xxl-max) {
+      display: none;
+      &.visible {
+        display: block;
+        position: absolute;
+        top: 71px;
+        left: 0;
+        background: $background-dark;
+        border-top: 1px solid #4c6085;
+        width: 100%;
+        height: auto;
+        ul {
+          flex-direction: column;
+          align-items: flex-start;
+          .nav__link--currency {
+            margin: 0;
+          }
+        }
+      }
+    }
     .nav__link {
       display: flex;
       align-items: center;
@@ -61,6 +92,7 @@
     align-items: center;
     justify-content: flex-end;
     text-transform: uppercase;
+    margin-left: auto;
     .action {
       &__cart {
         display: flex;
